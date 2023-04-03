@@ -1,0 +1,42 @@
+.main {
+    background-image: url(https://cdn.glitch.global/12770c35-cfd1-4fbf-8deb-fbb699513b38/main2.jpg?v=1654295173488);
+    background-size: cover;
+    height: 700px;
+}
+
+  .under:hover {
+    border-bottom: 5px solid rgb(69, 69, 69);
+  }
+
+.grey {
+    background-color: rgb(178 168 168);
+}
+
+span {
+    color: white;
+}
+.Anastaisha{
+            text-align: center;
+            font-size: 12px;
+             text-decoration: none;
+            color: #070707;
+          }
+
+.Anas{display:flex; 
+justify-content: center;}
+
+
+@media all and (max-width: 500px) {
+  .main {
+    height: 250px;
+  }
+
+  .hotel {
+    width: 170px;
+}
+
+iframe {
+  width: 300px;
+  height: 400px;
+}
+}
